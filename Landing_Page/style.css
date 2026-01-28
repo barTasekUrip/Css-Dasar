@@ -1,0 +1,92 @@
+/* RESET */
+/* 
+    Fungsi Margin adalah untuk jarak luar elemen, sedangkan padding untuk jarak dalam elemen.
+    Box-sizing: border box memastikan bahwa padding dan border termasuk dalam lebar dan tinggi total elemen.
+*/
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/* GLOBAL */
+/* 
+    Font-family: Arial, sans-serif untuk mengatur font yang diinginkan pada teks
+    Color: #333 untuk mengatur pewarnaan pada teks atau background
+    Line-height: 1.6 untuk mengatur jarak baris 
+    width: 90% untuk mengatur lebar kecilnya container
+    fungsi max-width adalah menentukan batas maksimal lebar elemen
+    fungsi text-decoration adalah mengatur hiasan pada teks
+    fungsi color adalah mengatur warna teks dan bisa untuk backgroumd
+
+*/
+body {font-family: Arial, sans-serif; color: #333; line-height: 1.6;}
+.container {width: 90%; max-width: 900px; margin: auto;}
+a {text-decoration: none; color: inherit;}
+
+/* HEADER */
+/*
+    Fungsi background adalah untuk mengatur latar belakang elemen.
+    Fungsi color adalah mengatur warna teks dan bisa untuk background.
+    Fungsi padding untuk jarak dalam elemen
+    Fungsi font-size: 22px adalah untuk mengatur ukuran besar kecilnya suatu teks
+    Fungsi margin-right: 15px adalah untuk mengatur jarak di sisi kanan elemen
+
+*/
+.header {background: #1e3a8a; color: white; padding: 15px 0;}
+.logo {font-size: 22px;}
+.nav a {margin-right: 15px;}
+
+/* HERO */
+/*
+    Fungsi background adalah untuk mengatur latar belakang elemen.\
+    Fungsi text-align: center untuk mengatur perataan teks secara horizontal di dalam suatu elemen
+    Fungsi padding untuk mengatur jarak dalaam suatu elemen
+    Fungsi margin-bottom: 15px memberikan ruang kosong di bawah elemen
+
+*/
+.hero {background: #e5e7eb; text-align: center; padding: 60px 0;}
+.hero h2 {margin-bottom: 15px;}
+
+/* BUTTON */ 
+/*
+    Fungsi display untuk menentukan elemen yang ditampilkan, Dan digunakan untuk mengatur perilau elemen di halaman.
+    Fungsi margin-top: 20px untuk mengatur jarak luar di bagian atas elemen.
+    Fungsi padding untuk mengatur jarak dalam suatu elemen.
+    Fungsi Background adalah untuk mengatur latar belakang elemen
+    Fungsi color adalah mengatur warna teks dan bisa untuk background
+    Fungsi border-radius: 4px untuk membuat sudut elemen menjadi membulat
+*/
+.btn {display: inline-block;margin-top: 20px; padding: 10px 20px; background: #1e3a8a; color: white; border-radius: 4px;}
+/* SECTION */ 
+/*
+    Fungsi padding adalah untuk mengatur jarak dalam suatu elemen.
+    Fungsi margin-bottom: 15px adalah untuk memberikan ruang kosong di bawah elemen
+    Fungsi background adalah untuk mengatur latar belakang elemen
+
+*/
+.section {padding: 50px 0;}
+.section h2 {margin-bottom: 15px;}
+.light {background: #f9fafb;}
+/* LIST */ 
+/*
+    Fungsi margin-left: 20px adalah untuk mengatur jarak luar di sisi kiri suatu elemen
+    Fungsi margin-bottom: 8px adalah untuk memberikan ruang kosong di bawah elemen
+
+*/
+.list {margin-left: 20px;}
+.list li {margin-bottom: 8px;}
+/* CTA */
+/*
+    Fungsi background adalah untuk mengatur latar belakang elemen.
+    Fungsi color adalah untuk mengatur warna pada teks dan bisa pula background.
+    Fungsi text-align: center untuk mengatur perataan teks secara horizontal di dalam suatu elemen
+    Fungsi Padding adalah untuk mengatur jarak dalam suatu elemen
+*/
+.cta {background: #1e3a8a; color: white; text-align: center; padding: 6px 0;}
+/* FOOTER */
+/*
+    Fungsi background adalah untuk mengatur latar belakang elemen.
+    Fungsi color adalah untuk mengatur warna pada teks dan bisa pula background.
+    Fungsi text-align: center untuk mengatur perataan teks secara horizontal di dalam suatu elemen
+    Fungsi Padding adalah untuk mengatur jarak dalam suatu elemen
+*/
+
+*/
+.footer {background: #111827; color: white; text-align: center; padding: 15px 0;}
